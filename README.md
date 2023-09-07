@@ -6,7 +6,7 @@ A fair hypothesis is that price changes affect customer churn. Therefore, it is 
 
 Moreover, for those customers that are at risk of churning, a discount might incentivise them to stay with our client. The head of the SME division is considering a 20% discount as large enough to dissuade almost everyone from churning, especially those for whom price is the primary concern.
 
-Task 1: Business understanding and hypothesis testing
+# Task 1: Business understanding and hypothesis testing
 Your first task is to understand what is going on with the client and think about how you would approach this problem and test the specific hypothesis.
 
 You must formulate the hypothesis as a data science problem and lay out the major steps needed to test this hypothesis, focusing on the data you would need from the client as well as the analytical models you would use to test the hypothesis.
@@ -17,7 +17,7 @@ What are the key factors for a customer deciding to stay with or switch provider
 Data sources and fields that could be used to explore the contribution of various factors to a customer’s potential action
 What would a data frame of your choice look like — what should each column and row represent?
 What kind of exploratory analyses on the relevant fields can give more insights into churn behaviour?
-Task 2: Exploratory data analysis
+# Task 2: Exploratory data analysis
 The BCG project team thinks that building a churn model to understand whether price sensitivity is the largest driver of churn has potential. The client has sent over some data which includes:
 
 Historical customer data: customer data such as usage, sign-up date, forecasted usage
@@ -32,7 +32,7 @@ Verify the hypothesis of price sensitivity being correlated with churn
 
 Prepare a half-page summary of key findings and add some suggestions for data augmentation — which other data sources should the client provide you with and which open source datasets might be useful?
 
-Task 3: Feature engineering and modelling
+# Task 3: Feature engineering and modelling
 The team now has a good understanding of the data and feels confident to use the data to further understand the business problem. The team now needs to brainstorm and build out features to uncover signals in the data that could inform the churn model.
 
 Feature engineering is one of the keys to unlocking predictive insight through mathematical modelling. Based on the data that is available and was cleaned, identify what you think could be drivers of churn for our client and build those features to later use in your model.
@@ -45,13 +45,4 @@ Try to think of ways to improve the feature’s predictive power and elaborate o
 Train a random forest classifier, evaluate the results, and document the advantages and disadvantages of using a random forest for this particular use case
 Bonus: how much money could the client save with the use of the model?
 
-Task 4: Findings and recommendations
-The client wants a quick update on the progress of the project.
 
-For task 4, develop an abstract slide synthesising all the findings from the project so far.
-
-A few things to think about for this abstract include:
-
-What is the most important number or metric to share with the client?
-How much detail should you go into, especially with the technical details of your work?
-What impact would the model have on the client’s bottom line? Always test what you write with the “so what” test
